@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "seed": "sqlite3 helpdesk.sqlite < seed.sql"
+    "seed": "sqlite3 helpdesk.sqlite < seed.sql",
+    "postinstall": "npm run seed"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
