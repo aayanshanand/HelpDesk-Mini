@@ -1,0 +1,49 @@
+.tickets-page {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.tickets-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #254ec2;
+  margin-bottom: 20px;
+}
+.tickets-search {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+.tickets-list {
+  list-style: none;
+  padding: 0;
+}
+.ticket-link {
+  font-size: 1.1rem;
+  color: #3366ff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.ticket-link:hover {
+  color: #254ec2;
+  text-decoration: underline;
+}
+.ticket-status {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 500;
+}
+.ticket-status.open {
+  color: #4caf50;
+}
+.ticket-status.closed {
+  color: #f44336;
+}

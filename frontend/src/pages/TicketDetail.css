@@ -1,0 +1,60 @@
+.ticket-page {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.ticket-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #254ec2;
+  margin-bottom: 8px;
+}
+.ticket-status {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 16px;
+}
+.ticket-desc {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+.ticket-comments {
+  margin-top: 24px;
+}
+.ticket-comments h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+.comment {
+  background: #f4f6fa;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+.comment-form {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+}
+.comment-form input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.comment-form button {
+  padding: 8px 16px;
+  background: #3366ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
