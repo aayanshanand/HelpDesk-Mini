@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:4000" || "https://helpdeskmini.onrender.com",
+  baseURL: process.env.REACT_APP_API_URL || "http://localhost:4000" || "https://helpdesk-mini-q1x1.onrender.com",
 });
 
 export function setToken(token) {
